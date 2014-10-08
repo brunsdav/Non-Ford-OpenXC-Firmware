@@ -1,0 +1,54 @@
+{
+    "messages": {
+        "0x14B": {
+            "signals": {
+                "brake_pres":{"generic_name":"brake_pressure"}
+            }
+        },
+        "0x108": {
+            "signals": {
+                "Engine_RPM":{"generic_name":"engine_rpm"},
+                "ecm_actl_tq":{"generic_name":"pt_torque"},
+                "ecm_cmd_tq":{"generic_name":"pt_torque_requested"}
+	    }
+        },
+        "0x120": {
+            "signals": {
+                "accel_pdl":{"generic_name":"throttle_pedal"}
+	    }
+        },
+        "0x160": {
+            "signals": {
+                "tcase_actl_tq":{"generic_name":"tcase_act_tq"},
+                "tcase_cmd_tq":{"generic_name":"tcase_cmd_tq"},
+                "elsd_previous_command":{"generic_name":"elsd_prev_cmd"}
+	    }
+        },
+        "0x26A": {
+            "signals": {
+                "eLSD_actl_cmd":{"generic_name":"elsd_act_cmd"}
+	    }
+        },
+        "0x102": {
+            "signals": {
+                "SWA":{"generic_name":"swa"}
+	    }
+        },
+        "0x144": {
+            "signals": {
+                "Trans_output_speed":{"generic_name":"trns_out_spd"},
+                "trans_gear_c":{"generic_name":"gear"},
+                "trans_gear_next_2":{"generic_name":"next_gear"},
+		"Trans_input_speed":{"generic_name":"trns_in_spd"}
+	    }
+        },
+        "0x158": {
+            "signals": {
+                "ws_lf":{"generic_name":"ws_lf"},
+                "ws_rf":{"generic_name":"ws_rf"},
+                "ws_lr":{"generic_name":"ws_lr"},
+		"ws_rr":{"generic_name":"ws_rr"}
+            }
+        }
+    }
+}
