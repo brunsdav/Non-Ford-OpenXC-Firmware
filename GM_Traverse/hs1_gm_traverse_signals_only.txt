@@ -1,0 +1,42 @@
+{
+    "messages": {
+            "signals": {
+                "awd_cmd":{"generic_name":"awd_cmd"},
+		"awd_mode":{"generic_name":"awd_mode"}
+            }
+            "signals": {
+                "brake_prssure":{"generic_name":"brake_pressure"}
+	    }
+            "signals": {
+                "boo":{"generic_name":"brake_on_off"},
+                "accel_pdl":{"generic_name":"throttle_pedal"},
+                "rpm":{"generic_name":"engine_rpm"}
+	    }
+            "signals": {
+                "t1":{"generic_name":"engine_torque_1"},
+                "t2":{"generic_name":"engine_torque_2"},
+                "t3":{"generic_name":"engine_torque_3"},
+                "throttle_plate":{"generic_name":"throttle_plate"}
+	    }
+            "signals": {
+                "front_left_ws":{"generic_name":"front_left_ws"},
+                "front_right_ws":{"generic_name":"front_right_ws"}
+	    }
+            "signals": {
+                "rear_left_ws":{"generic_name":"rear_left_ws"},
+                "rear_right_ws":{"generic_name":"rear_right_ws"}
+	    }
+            "signals": {
+                "SWA2":{"generic_name":"SWA2"},
+                "SWA":{"generic_name":"SWA"}
+	    }
+            "signals": {
+                "gear_ratio":{"generic_name":"gear_ratio"},
+                "oss":{"generic_name":"oss"}
+	    }
+            "signals": {
+                "Trans_input_RPM":{"generic_name":"trans_input_RPM"}
+            }        
+        }
+    }
+}
